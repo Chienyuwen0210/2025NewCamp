@@ -149,11 +149,11 @@ i{
 }
 p{
 	display: -webkit-box;
-		-webkit-box-orient: vertical;
-		-webkit-line-clamp:2;
-		overflow: hidden;
-		color: #4b4b4b;
-		margin: 10px 0;	
+    -webkit-box-orient: vertical;
+	-webkit-line-clamp:2;
+	overflow: hidden;
+	color: #4b4b4b;
+	margin: 10px 0;	
 }
 .card .btn{
     margin-top: 16px;
@@ -164,11 +164,9 @@ p{
 	margin: auto;
 	color: #4b4b4b;
 }
-/* .btn:hover{
+.btn:hover{
 	background-color: #4b4b4b;
-} */
-.btn:hover>a{
-	color:#fbfbfb;
+    color:#fbfbfb;
 }
 .pageBox{
     display: flex;
