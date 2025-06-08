@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Exile&family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Share+Tech&display=swap');
+
+body{ 
+    font-family: "Noto Sans TC", sans-serif ;
+	background-color: #fbfbfb;    
+}
+.container{
+	width: 100vw;
+}
+main,.contentUs{
+    width: 1296px;
+    margin: 0 auto;
+    line-height: 1.5;		
+}
+a{
+	text-decoration: none;
+    color: #4b4b4b;
+}
+.btn{
+	border-radius: 20px;
+	color: black;
+	text-align: center;
+	border: 1px solid black; 
+	box-sizing: border-box;	
+    display: inline-block;
+}
+p{
+    line-height: 1.5;  
+}
+.bannerTitle{
+     text-align: center;
+}
+.bannerTitle a{
+    display: inline-block;
+    font-size: 28px;
+    margin:20px; 
+    font-weight: 700;
+}
+main{
+    padding-top: 10px;
+}
+.time{ 
+	margin-top: 16px;
+}
+.picBox{
+    display: flex;
+}
+.picBox >div{
+    width: 50%;
+}
+.textList span{
+    display:block;
+    color: rgba(0, 39, 213, 1);
+    margin-left: 30px;
+}
+.textList{
+    margin-left: 20px;
+    width: 70%;
+}
+.textList>time{
+    font-size: 12px;
+}
+.textList .btn{
+    font-size: 12px;
+    padding: 0.6em 0.8em;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.textList span:nth-child(1){
+    font-size:80px;
+    font-weight: 900;
+}
+.textList span:nth-child(2){
+    font-size: 18px;
+    font-weight: 700;
+}
+.Box1.text{
+    margin-left:30px auto;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/16da9aa899a5190ed2d5bdfe48ae1cc631b95463/2025-web-camp/desktop/index/Hero%20Section2.png?raw=true);
+    }
+.text:nth-child(1) .textList {
+    display: block;
+    width: 50%;
+}
+.textList h3{
+    font-size: 22px;
+    font-weight: 100px;
+}
+.textList p{
+    font-size: 12px;
+}
+.news p{
+    display: inline-block;
+    color: #0027D5;
+    font-size: 18px;
+}   
+.news a{
+    background-color: #0027D5;
+    color:white;
+    font-size: 12px;
+    border:#0027D5;
+    margin-left: 10px;
+}
+/* ------main------ */
+i{
+    display: inline-block;
+    width: 24px;
+}
+.searchBox{
+    width:400px;
+    border-radius: 30px;
+    border: 1px solid #4b4b4b;
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+    overflow: hidden;
+    margin-top: 80px;
+}
+.card h2{
+	font-size: 28px;
+	margin: 3px;
+}
+.itemBox{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+}
+.card{
+	width: 416px;
+	margin: 28px 0;
+}
+.aItem a{
+	color:#0027D5;
+	font-size: 24px;
+	margin-right:5px;
+}
+.card .pic{
+	height: 200px;
+	margin-bottom: 16px;
+}
+.pic img{
+	width: 100%;
+	height: 100%;
+    object-fit: cover; 
+    display: block;
+}
+p{
+	display: -webkit-box;
+		-webkit-box-orient: vertical;
+		/* -webkit-line-clamp:2; */
+		overflow: hidden;
+		color: #4b4b4b;
+		margin: 10px 0;	
+}
+.card .btn{
+    margin-top: 16px;
+    padding: 0.4em 0.8em;
+}
+.btn a{
+	align-self: center;
+	margin: auto;
+	color: #4b4b4b;
+}
+.btn:hover{
+	background-color: #4b4b4b;
+}
+.btn:hover>a{
+	color:#fbfbfb;
+}
+.pageBox{
+    display: flex;
+    justify-content: center;
+}
+.pageNumber{
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    padding: 8px ;
+    text-align: center;
+}
+.pageNumber li{
+    width: 40px;
+}
+/* ------footer------ */
+footer{
+    border-top: 1px solid black;
+}
+footer p{
+    text-align: center;
+}
+.contentUs{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+ .contentUs ul{
+    display: flex;
+ }
+ .contentUs span{
+    font-size: 24px;
+    font-weight: 500;
+ }
+ /* ---------手機版-------- */
+   @media (max-width: 768px) {
+    main, .contentUs,footer {
+        width: 100%;
+      }
+    /* .banner */
+    .banner{
+        overflow: hidden;
+    }
+    .Box1,.Box2{
+        display: flex;
+        flex-direction: column;
+    }
+    .Box1 .pic{
+        width: 100%;
+    }
+    .Box1 .pic img{
+        width: 100%;
+    }
+    .card{
+     width: 100%;}
+    .Box1 .textList span:nth-child(1){
+        font-size: 60px;
+        line-height: 1.5;  
+    } 
+    .Box1 .textList span:nth-child(2) {
+        font-size: 36px; 
+        line-height: 1.5;
+        margin-top: 20px;
+    }
+    .picBox >div{
+        width: 100vw;
+    }
+    .textList{
+        margin: 40px 0;
+        width: 100%;
+    }
+   /* main */
+   .searchBox{
+    display: none;
+   }
+   .itemBox{
+    margin: 0 10px;
+    overflow: hidden;
+   }
+   .card .pic{
+    width:100%;
+   }
+   .card .pic img{
+    width: 100%;
+   }
+   /* footer */
+   .contentUs{
+    display: none;
+   }
+   }
