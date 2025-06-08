@@ -150,7 +150,7 @@ i{
 p{
 	display: -webkit-box;
 		-webkit-box-orient: vertical;
-		/* -webkit-line-clamp:2; */
+		-webkit-line-clamp:2;
 		overflow: hidden;
 		color: #4b4b4b;
 		margin: 10px 0;	
@@ -164,9 +164,9 @@ p{
 	margin: auto;
 	color: #4b4b4b;
 }
-.btn:hover{
+/* .btn:hover{
 	background-color: #4b4b4b;
-}
+} */
 .btn:hover>a{
 	color:#fbfbfb;
 }
